@@ -1,7 +1,9 @@
 function Button (props) {
   return(
-    <div className="button">
-      {props.icon}
+    <div className="button-wrapper">
+      <button className="button">
+        {props.icon}
+      </button>
     </div>
   );
 }

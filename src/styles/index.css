@@ -50,6 +50,6 @@ body #root{
   --main-black: #000000;
   --main-green: #80BF76;
   --main-grey: #EFEFEF;
-  --main-hover-grey: #E4E4E4;
+  --main-focus-grey: #E4E4E4;
   --main-icon-grey: #8F8F8F;
 }
