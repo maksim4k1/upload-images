@@ -36,7 +36,7 @@ function App() {
     <div className="App container">
       <UploadButton changeImage={changeImage}/>
       <Image image={image} loader={loader}/>
-      <Buttons/>
+      <Buttons image={image}/>
     </div>
   );
 }
