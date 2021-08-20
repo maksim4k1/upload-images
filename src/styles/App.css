@@ -47,10 +47,10 @@
   align-items: center;
   background: var(--main-grey);
   border-radius: 10px;
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 .button path{
-  transition: fill 0.3s;
+  transition: fill 0.2s;
 }
 .button:hover path{
   fill: var(--main-green)
