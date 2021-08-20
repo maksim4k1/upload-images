@@ -1,4 +1,4 @@
-import PlaceholderIcon from "../assests/PlaceholderIcon";
+import PlaceholderIcon from "../assets/PlaceholderIcon";
 
 function Image (props) {
   return(
