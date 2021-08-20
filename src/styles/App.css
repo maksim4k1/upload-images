@@ -64,3 +64,9 @@
 .button:focus{
   background: var(--main-focus-grey);
 }
+.button.active{
+  background: var(--main-green);
+}
+.button.active path{
+  fill: var(--main-white);
+}
