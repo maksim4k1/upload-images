@@ -35,9 +35,14 @@ body{
   color: var(--main-black);
   font-family: 'Lato', sans-serif;
 }
+body #root{
+  min-height: 100%;
+  display: flex;
+  flex-flow: column;
+}
 
 /* Стили контейнеров */
-.container{width: 100%; max-width: 474px; margin: 0 auto; padding: 0 15px;}
+.container{width: 100%; max-width: 474px; margin: auto; padding: 0 15px;}
 
 /* Переменные */
 :root{
