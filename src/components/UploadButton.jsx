@@ -1,4 +1,4 @@
-function Button (props) {
+function UploadButton (props) {
   return(
     <label className="label">
       Загрузить картинку
@@ -7,4 +7,4 @@ function Button (props) {
   );
 }
 
-export default Button;
+export default UploadButton;
