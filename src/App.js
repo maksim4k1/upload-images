@@ -6,9 +6,12 @@ import { useState } from 'react';
 
 function App() {
   const [image, setImage] = useState(null);
+  const [loader, setLoader] = useState(false);
 
   async function changeImage(image){
+    setLoader(true);
     const base64 = await convertImageToBase64(image);
+    setLoader(false);
     setImage(base64);
   }
 
@@ -32,7 +35,7 @@ function App() {
   return (
     <div className="App container">
       <UploadButton changeImage={changeImage}/>
-      <Image image={image}/>
+      <Image image={image} loader={loader}/>
       <Buttons/>
     </div>
   );
